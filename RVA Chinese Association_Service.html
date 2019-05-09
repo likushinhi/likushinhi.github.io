@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RVA Chinese Association_Services</title>
+    <meta charset="utf-8" name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="common.css">
+    <style>
+        #homecontent {
+            margin-left: 200px;
+            font-size: 28px;
+            background-color: lightblue ;
+            padding-top: 1px;
+        }
+
+        .figcaption {
+            font-size: large;
+            font-style: italic;
+            color: darkblue ;
+            margin-left: 350px;
+        }
+
+        .border {
+            border: dashed crimson;
+        }
+
+        .dropdown {
+            float: left; 
+        }
+
+        .dropdown .dropbtn {
+            font-size: 28px;
+            border: none;
+            outline: none;
+            background-color: inherit;
+            font-family: inherit; 
+            margin: 0; 
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: floralwhite ;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            text-decoration: none;
+            padding: 8px 14px;
+            display: block;
+            text-align: left;
+        }
+
+       .dropdown-content a:hover {
+           background-color: orange ;
+       }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .button {
+            padding: 15px 25px;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: white;
+            background-color: coral;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+            float: left;
+        }
+            .button:hover {
+                background-color: mediumpurple;
+            }
+
+            .button:active {
+                background-color: #3e8e41;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+            }
+   
+    </style>
+    <link rel="icon" href="logo.png" type="image/ico">
+</head>
+<body>
+    <div class="header">
+        <h1><img src="logo.png" alt="RVA Chinese Association Logo" style="float:left;width:65px;height:65px;">&nbspRVA Chinese Association</h1>
+    </div>
+
+    <div class="sidenav">
+        <ul>
+            <li><a href="RVA Chinese Association_Home.html">Home</a></li>
+            <li class="dropdown">
+                <a class="dropbtn" href="RVA Chinese Association_Services.html">Services</a>             
+                <div class="dropdown-content">
+                    <a href="#">Food</a>
+                    <a href="#">Lawn Care</a>
+                    <a href="#">Appliance</a>
+                </div>
+            </li>
+            <li><a href="#forum">Forum</a></li>
+            <li><a href="RVA Chinese Association_Aboutus.html">About Us</a></li>
+            <li><a href="RVA Chinese Association_Contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div ID="homecontent">
+        <h2>Services</h2>
+        <p>Choose the services you want. Check the details under the dropdown menu on the left.</p>
+        <ul>
+            <li>Local Chinese food ordering</li>
+            <li>Group purchase of lawn care service</li>
+            <li>Appliance repair and installation service</li>
+            <li>Other services</li>
+        </ul>      
+        <button class="button">Choose me</button><br><br><br>
+        <img src="service.jpg" alt="Service" style="width:800px;height:250px;">
+        <figcaption class="figcaption">Service</figcaption>
+    </div>
+
+    <footer class="footer">
+        <p>
+            contact information:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            Tel: 804-123-456&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            E-mail: luc3@vcu.edu&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            Wechat ID: rvachinesassociation
+        </p>
+        <p><small><b><i>Copyright &copy; 2019 Chenfei Lu</i></small></b></p>
+    </footer>
+</body>
+
+</html>

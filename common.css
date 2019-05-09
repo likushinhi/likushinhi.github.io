@@ -1,0 +1,134 @@
+﻿.header {
+    background-color: crimson;
+    color: white;
+    font-size: x-large;
+    padding-top: 0.1px;
+    padding-bottom: 0.2px;
+    padding-left: 20px
+    }
+
+.sidenav {
+    height: 100%;
+    width: 180px;
+    background-color: lightgrey;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 100px;
+    float: left;
+    }
+
+    .sidenav ul {
+        list-style-type: none;
+    }
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 28px;
+        color: black;
+        display: block;
+    }
+    .sidenav a:hover, .dropdown:hover .dropbtn {
+        background-color: orange;
+        color: white;
+    }
+
+    .sidenav a.active {
+        background-color: orange;
+        color: white;
+    }
+
+.footer {
+    text-align: center;
+    bottom: 0;
+    background-color: orange;
+    }
+
+@media only screen and (max-width: 1024px) {
+    body #homecontent {
+        margin-left: 0;
+    }
+
+    body .figcaption {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    body .contactusimg {
+        margin-left: 0;
+    }
+
+    body .dropdown {
+        float: none;
+    }
+
+    .sidenav {
+        float: none;
+        width: auto;
+    }
+
+        .sidenav li {
+            display: inline-block;
+        }
+
+        .sidenav ul{
+            text-align: center;
+        }
+
+        .sidenav, .sidenav ul {
+            padding: 0;
+        }
+
+    h1, h2 {
+        font-size: 120%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body #homecontent{
+        margin-left: 0;
+    }
+
+    body .figcaption {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    body .contactusimg {
+        margin-left: 0;
+    }
+
+    h1, h2 {
+        font-size: 100%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+
+    figure {
+        display: none;
+    }
+    
+    .sidenav, .sidenav ul, .sidenav li {
+        padding: 0;
+    }
+
+        .sidenav li {
+            display: block;
+        }
+
+        .sidenav a {
+            display: block;
+            padding: 0.5em;
+            border-bottom: 2px ridge #00005D;
+        }
+
+    .dropdown {
+        display: block;
+        padding: 0.5em;
+        border-bottom: 2px ridge #00005D;
+    }

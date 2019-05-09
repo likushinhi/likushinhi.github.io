@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RVA Chinese Association_Contact</title>
+    <meta charset="utf-8" name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="common.css">
+    <style>
+        #homecontent {
+            margin-left: 200px;
+            font-size: 28px;
+        }
+
+        .backgroundimg {
+            background-image: url(contactusbackground.jpg);
+            opacity: 0.5;
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 500px 300px
+        }
+
+        .contactusimg {
+            margin-left: 200px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .figcaption {
+            color: red;
+            margin-left: 500px;
+        }
+
+        .border {
+            border: dashed darkblue;
+        }
+
+        fieldset {
+            width: 500px;
+            border: 2px dashed;
+            padding: 10px;
+            margin-bottom: 10px;
+
+        }
+
+        legend {
+            font-family: Georgia, "Times New Roman", serif;
+            font-weight: bold;
+        }
+
+        label {
+            float: left;
+            width: 100px;
+            clear: left;
+            text-align: right;
+            padding-right: 10px;
+        }
+
+    </style>
+    <link rel="icon" href="logo.png" type="image/ico">
+</head>
+<body>
+    <div class="header">
+        <h1><img src="logo.png" alt="RVA Chinese Association Logo" style="float:left;width:65px;height:65px;">&nbspRVA Chinese Association</h1>
+    </div>
+
+    <div class="sidenav">
+        <ul>
+        <li><a href="RVA Chinese Association_Home.html">Home</a></li>
+        <li><a href="RVA Chinese Association_Service.html">Services</a></li>
+        <li><a href="#Forum">Forum</a></li>
+        <li><a href="RVA Chinese Association_Aboutus.html">About Us</a></li>
+        <li><a class="active" href="RVA Chinese Association_Contact.html">Contact</a></li>
+         </ul>
+    </div>
+
+    <div ID="homecontent" class="backgroundimg">
+        <h2>Contact us</h2>
+        <p>RVA Chinese Association is established by Chenfei Lu, a student who is currently studying Information System in VCU. If you have any question, please contact with her directly.</p>
+        <ul class="border">
+            <li>Tel: 804-123-456</li>
+            <li>E-mail:<a href="mailto:luc3@vcu.edu">luc3@vcu.edu</a></li>
+            <li>Wechat ID: rvachinesassociation</li>
+        </ul>
+    </div>
+    <form method="post">
+        <fieldset>
+            <legend>Contact us</legend>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname"><br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname"><br><br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email"><br><br>
+            FAQ<br>
+            <select size="1" name="quesiton" id="question">
+                <option>Select how you heard about us</option>
+                <option value="friend">Recommend by friend</option>
+                <option value="Internet">Search on internet</option>
+                <option value="Magazine">Introduce on magazine</option>
+            </select>
+            <br><br>
+            Comments:<br>
+            <textarea name="comments" id="comments" rows="4" cols="40"></textarea><br><br>
+            <input type="submit" value="Contact"> <input type="reset">
+        </fieldset> <br>
+    </form><br><br>
+
+    <img class="contactusimg" src="contactus.jpg" alt="contact us" style="width:700px;height:250px;">
+    <figcaption class="figcaption"><b>Contact Us</b></figcaption>
+
+    <footer class="footer">
+        <p>
+            contact information:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            Tel: 804-123-456&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            E-mail: luc3@vcu.edu&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            Wechat ID: rvachinesassociation
+        </p>
+        <p><small><b><i>Copyright &copy; 2019 Chenfei Lu</i></small></b></p>
+    </footer>
+</body>
+
+</html>
